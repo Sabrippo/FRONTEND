@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+
+section{
+    width: 80%;
+    background-color: lightblue;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    /* column-gap: 20px; */
+    /* row-gap: ; */
+    gap: 20px 10px;
+
+}
+
+div{
+    border: 1px solid;
+    text-align: center;
+    padding: 1rem;
+    width: 50px;
+}
+
+.div1{
+    /* align-self: self-end; */
+}

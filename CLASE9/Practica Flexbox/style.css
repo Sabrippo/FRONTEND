@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+section{
+    width: 80%;
+    background-color: lightblue;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;/*si pongo column los ejes se invierten*/
+    justify-content: space-around;/*space-around genera espacio entre los items, between reparte espacio */
+    height: 400px;
+    align-items: center;/*start se posicionan arriba, end al final, center al centro*/
+    flex-wrap:wrap ;/*si no hay mas espacio se convierte en multilinea y acomoda todo*/
+    column-gap: 10px;/*genera espacio entre los elementos sin necesidad de generar márgenes*/
+}
+div{
+    border: 1px solid;
+    text-align: center;
+    padding: 1rem;
+    width: 50px;   
+}
+.div1{
+    align-self: first baseline;/*sirve para alinear un elemento individual dentro del padre (section)*/
+}

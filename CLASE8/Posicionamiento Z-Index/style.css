@@ -1,0 +1,15 @@
+.amarillo {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+}
+
+.rojo {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+}

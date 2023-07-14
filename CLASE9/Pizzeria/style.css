@@ -1,0 +1,106 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1.3rem;
+}
+.logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.nav-menu > .list-menu{
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-evenly; */
+}
+.list-menu{
+    list-style: none;
+    font-size: 1 rem;
+    color: #F3F3F3;
+}
+a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+.section{
+    padding: 2rem 1rem;    
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    height: 21rem;
+    column-gap: 20px;
+    
+}
+.izquierda{
+    color: #FC200C; 
+}
+.izquierda>h1{
+    
+    justify-content: flex-start;
+    padding-left: 15px ;
+}
+.izquierda{
+    
+    background-image: url(/Pizzeria/Img/delivery.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 21rem;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 1rem;   
+} 
+.derecha{
+    width: 50%;
+    height: 21rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.derecha h2{
+    text-align: center;
+    margin-top: 0;
+    color: #FC200C;
+    
+}
+.ranking-list  {
+    display: flex;
+    padding-left: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+.pizza-falling{
+    padding-right:150px;
+}    
+h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+ol.menu{
+    font-size: 1rem;
+    font-weight: 700;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1.3rem;
+}
+.list-menu-footer>li{
+    margin-bottom: 10px;
+}

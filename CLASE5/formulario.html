@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+   
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form action="./resultado.html " method="post">
+      
+      <h1>Registro de usuario</h1>
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="usuario" id="nombre" placeholder="Nombre completo" required>
+
+      <label for="password">Password:</label>
+      <input type="password" name="clave" id="password" placeholder="Password" >
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Email" >
+
+      <label for="tel">Teléfono:</label>
+      <input type="tel" name="teléfono" id="tel" placeholder="Teléfono" >
+
+      <label for="number">Número:</label>
+      <input type="number" name="number" id="number" placeholder="Número" >
+
+      <label for="date">Fecha:</label>
+      <input type="date" name="fecha" id="date" placeholder="Fecha" >
+
+      <textarea name="comentarios" id="comentarios" cols="30" rows="05">Deje aquí sus comentarios</textarea>
+      
+      <label>Seleccione un trabajo:</label>
+        <select name="job">
+            <option value="Desarrollador front-end" selected>Desarrollador front-end</option>
+            <option value="Desarrollador back-end">Desarrollador back-end</option>
+            <option value="Desarrollador full-stack">Desarrollador full-stack</option>
+            <option value="Diseñador web">Diseñador web</option>
+        </select> 
+
+      <label for="">Cuales son tus intereses</label>
+
+      <label for="Música"></label>
+      <input type="checkbox" name="hobbies[]" value="Música" id="Música"> Música</input><br>
+
+      <label for="Pintura"></label>
+      <input type="checkbox" name="hobbies[]" value="Pintura" id="Pintura"> Pintura </input><br>
+
+      <label for="Juegos"></label>
+      <input type="checkbox" name="hobbies[]" value="Juegos" checked id="Juegos">Juegos</input><br>
+      <br>
+      
+      <label for="">Método de pago</label>
+
+      <input type="radio" name="medio-de-pago" value="Efectivo" checked> Efectivo</input><br>
+      <input type="radio" name="medio-de-pago" value="Débito"> Débito </input><br>
+      <input type="radio" name="medio-de-pago" value="Tarjeta"> Tarjeta </input><br>
+
+          
+      <button type="submit">Enviar</button>
+      <button type="reset">Resetear</button>
+
+      
+    
+
+    </form>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.primero {
+    background-color:aquamarine;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+.segundo {
+    background-color: darkviolet;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}

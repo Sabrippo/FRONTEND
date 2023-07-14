@@ -1,0 +1,11 @@
+.mi-elemento {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+}
+ 
+.mi-elemento:hover {
+    transition-duration: 2s;
+    border-radius: 50%;
+    background-color: aqua;
+}

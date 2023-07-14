@@ -1,0 +1,119 @@
+#nav1{
+    background-color: black;
+    color: white;
+}
+#nav1 a {
+    text-decoration: none;
+    color: white;
+    line-height: 10px;
+}
+
+#nav2{
+    background-color: #F0A83E;
+}
+#nav2 a{
+    text-decoration: none;
+    color: white;
+    line-height: 62px;
+}
+#s1{
+    color: black;
+    background-image: url("./Img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-size: cover;
+    text-align: right;
+    line-height: 10rem;
+}
+button{
+    background-color: #F0A83E;
+    color: white;
+    border: none;
+}
+#p1{
+    background-color: white;
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+
+}
+#p2{
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+#comed{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+#s2{
+    text-align: center;
+}
+h1{
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+h3{
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}       
+h4{
+    color: #666;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor-imagenes {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+}
+.contenedor-imagenes img {
+    width: 200px; /* Ajusta el ancho de las imágenes según tus necesidades */
+    height: auto; /* Ajusta la altura proporcionalmente */
+    margin: 0 10px; /* Añade un margen horizontal entre las imágenes */
+}
+.contenedor-formulario {
+    max-width: 500px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    text-align: center;
+}
+  
+  .contenedor-formulario form {
+    width: 100%; /* El formulario ocupará todo el ancho del contenedor */
+}
+.contenedor-texto {
+    display: flex;    
+    white-space: nowrap; /* Evita el salto de línea */
+    background-color:#F0A83E ;
+} 
+.form-box{
+    float: right;
+}
+.pie {
+    background-color: #3C2313;
+    height: 550px;
+}
+#logo-pie{
+    text-align: right;
+    width: 100%;
+}
+.p3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.p4{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.fin{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+  

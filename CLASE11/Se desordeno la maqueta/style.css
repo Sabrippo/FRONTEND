@@ -1,0 +1,28 @@
+.item{
+    background-color: #89ece1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item--header{ 
+    grid-area: area1;
+}
+.item--main{
+    grid-area: area2;
+}
+.item--aside{
+    grid-area: area3;
+}
+.item--footer{
+    grid-area: area4;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 5px;
+    grid-template-areas: 
+    "area1 area1"
+    "area2 area3"
+    "area4 area4";
+}

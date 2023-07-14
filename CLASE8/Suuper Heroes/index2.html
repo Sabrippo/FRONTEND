@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Añadí tu super!</h1>
+        <h3>Agregá tu personaje favorito completando las opciones.</h3>
+        <form action="registro" method="post">
+            <div class="formulario">
+                <div class="der">
+                    <label for="Nombre">*Nombre</label>
+                    <input type="text" name="Nombre" >
+                    <label for="Fecha">Fecha</label>
+                    <input type="date" name="Fecha">
+                    <label for=""></label>
+                    <textarea name="" id="" cols="30" rows="20" style="width: 629px; height: 383px;"></textarea>
+                </div>
+                <div class="izq">
+                        <label>*Especie</label>
+                            <select name="Especie">
+                             <option value="">Superhéroe</option>
+                             <option value="">Supervillano</option>
+                            </select>
+                        <input type="file" name="Foto" accept=".jpg" multiple placeholder="Seleccionar archivo">
+                
+                        <p>Poder</p>                
+                            <input type="checkbox" id="sp1" name="poder">
+                            <label for="sp1">Volar</label>
+
+                            <input type="checkbox" id="sp2" name="poder" value="2">
+                            <label for="sp2">Súper Inteligencia</label>
+
+                            <input type="checkbox" id="sp3" name="poder" value="3">
+                            <label for="rayo">Vista de rayo láser</label>
+
+                            <input type="checkbox" id="sp4" name="poder" value="4">
+                            <label for="gorda">Billetera gorda</label>
+                
+                        <hr>
+
+                        <p>Tipo de personaje</p>
+                            <input type="radio" name="personaje" value="heroe">
+                            <label for="personaje">Héroe / Heroina</label>
+                            <input type="radio" name="personaje" value="villano">
+                            <label for="personaje">Villano / Villana</label>
+                
+                </div>
+            </div>     
+                <div class="boton">
+                    <button type="submit">Añadir</button>
+                </div>               
+        </form>
+    </main>
+</body>
+</html>

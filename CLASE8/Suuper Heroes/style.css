@@ -1,0 +1,136 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.img-trasera{
+    width: 500px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.img-delantera{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+main{
+    background-color: #ffff;
+}
+p.descuentos{
+    background-color: #D1891C;
+    color: #333333;
+    padding-left: 1rem;
+}
+h1.card{
+    background-color: #00669F;
+    color: #ffff;
+    text-align: start;
+    padding-left: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+#corazon{
+    position: absolute;
+    left: 10%;
+    top: 6%;
+
+}
+section{
+    margin: 4rem 4rem;
+    display: flex;
+    flex-wrap: no wrap;
+    gap: 6rem;
+}
+article{
+    width: 500px;
+    height: 700px;
+    padding: 10px 15px;
+    position: relative;  
+    background-color: #F3F3F3;  
+    
+}
+article p{
+    width: 500px;
+    height: 150px;
+}
+
+.img-delantera{
+   position: absolute;
+   top: 25%;
+   left: 30%;
+}
+h1{
+    text-align: center;
+}
+button{
+    justify-content: center;
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #00669F;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    background-color: #00669F;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.p-footer{
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    display: inline;
+    font-size: 1.5rem;
+    padding-top: 0.8rem;
+}
+.i-footer{
+    width: 10%;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+}
+a{
+    display: flex;
+    justify-content: center;
+    color: #F3F3F3;
+}
+.formulario{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+.formulario .der{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 50%;
+   
+    
+    
+    background-color: #D1891C;
+    
+}
+.formulario .izq{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 50%;
+
+    background-color: aqua;
+    
+    
+}
