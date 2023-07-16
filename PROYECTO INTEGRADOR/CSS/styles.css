@@ -1,0 +1,169 @@
+:root {
+   /* color: #FC7300;
+    color:#1F8A70;
+    color: #00425A;
+    color: #181823;
+    color: #EFF5F5;*/
+    
+}      
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {    
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 20px;    
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+.navbar-toggle {
+    display: none;
+    cursor: pointer;
+}
+  
+.navbar-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #e11212;
+    margin-bottom: 5px;
+}
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    
+}
+.contenedor-h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/Img/BckgHeader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25rem;
+}
+.contenedor-s1{
+    display: flex;
+    gap: 5rem;
+    padding: 1rem 2rem;
+    width: 100vw;
+    height: 400px;     
+}
+.contenedor-s1 img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.contenedor-s1 p{
+    overflow: auto;
+    text-align: left;
+    color: black;
+}
+.contenedor-s2{
+    display: flex;
+    gap: 5rem;
+    padding: 1rem 2rem;
+    width: 100vw;
+    height: 400px;     
+}
+.contenedor-s2 img{
+    max-width: 90%;
+    max-height: 90%;
+}
+.contenedor-s2 p{
+    overflow: auto;
+    text-align: left;
+    color: black;
+}
+.contenedor-s5{
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 1rem 4rem;
+    width: 100vw;
+    height: 400px; 
+    gap: 5rem;
+}
+h3{
+    padding: 1rem 0rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 320px) {
+.navbar-toggle {
+    display: block;
+}    
+.navbar-collapse {
+    display: none;
+}    
+.navbar-nav {
+    flex-direction: column;
+    background-color: #333;    
+}    
+.nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+}    
+.navbar-nav.active {
+    display: flex;
+}
+
+} 
+@media (min-width: 321px) and (max-width: 768px) {
+body{
+    background-color:aqua;
+}  
+.navbar{
+    width: 100vw;
+}     
+.navbar-toggle {
+    display: none;
+}    
+.navbar-collapse {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2px; 
+}    
+.navbar-nav {
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;       
+}    
+.nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+}    
+.navbar-nav.active {
+    display: flex;
+}
+nav ul{
+    padding: 0px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+li {
+    text-align: center;
+}
+
+}         
