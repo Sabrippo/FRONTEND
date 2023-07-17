@@ -1,8 +1,7 @@
 :root {
-   /* color: #FC7300;
-    color:#1F8A70;
+    background-color: #FC7300;
     color: #00425A;
-    color: #181823;
+    /*color: #181823;
     color: #EFF5F5;*/
     
 }      
@@ -25,7 +24,12 @@ nav ul {
 }
 nav ul li a{
     text-decoration: none;
+    color: #00425A;
+    font-weight: bold;
     
+}
+.navbar{
+    height: 2rem;    
 }
 .navbar-toggle {
     display: none;
@@ -36,7 +40,7 @@ nav ul li a{
     display: block;
     width: 25px;
     height: 3px;
-    background-color: #e11212;
+    background-color: #00425A;
     margin-bottom: 5px;
 }
 .navbar-nav {
@@ -45,19 +49,28 @@ nav ul li a{
     margin: 0;
     padding: 0;
 }
-h1{
-    text-align: center;
-    
+.navbar-collapse{
+    padding-top: 0.5rem;
 }
-.contenedor-h1{
+h1{
+    text-align:left;
+    color:#FC7300;
+    padding-left: 30rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+.contenedor-h1{    
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/Img/BckgHeader.jpg);
+    background-image: url(/Img/Pizarrón\ \(2\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 25rem;
+    background-position:center;
+    height: 20rem;
+}
+h2{
+    padding: 1rem;
 }
 .contenedor-s1{
     display: flex;
@@ -69,11 +82,12 @@ h1{
 .contenedor-s1 img{
     max-width: 100%;
     max-height: 100%;
+    border-radius: 5%;
 }
 .contenedor-s1 p{
     overflow: auto;
     text-align: left;
-    color: black;
+    color: #00425A;
 }
 .contenedor-s2{
     display: flex;
@@ -85,19 +99,29 @@ h1{
 .contenedor-s2 img{
     max-width: 90%;
     max-height: 90%;
+    border-radius: 5%;
 }
 .contenedor-s2 p{
     overflow: auto;
     text-align: left;
-    color: black;
+    color: #00425A;
+}
+.contenedor-s4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0rem;
+}
+.Texto-s4{
+    text-align: center;
+    
 }
 .contenedor-s5{
     display: flex;
     justify-content: center;
-    color: black;
+    color: #00425A;
     padding: 1rem 4rem;
     width: 100vw;
-    height: 400px; 
+    height: 250px; 
     gap: 5rem;
 }
 h3{
@@ -106,6 +130,29 @@ h3{
 footer{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 2rem;
+}
+.Div-Redes{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+}
+h4{
+    padding: 1rem 1rem;
+    text-align: center;
+}
+.Form-contacto{
+    text-decoration: none;
+    color: #00425A;    
+}
+.Div-mapa-form{
+    display: flex;
+    flex-direction: column;  
+}
+
+a:hover{
+    color:#1f8a70 ;
 }
 
 @media (max-width: 320px) {
@@ -134,6 +181,7 @@ body{
 }  
 .navbar{
     width: 100vw;
+    height: 1.5rem;
 }     
 .navbar-toggle {
     display: none;

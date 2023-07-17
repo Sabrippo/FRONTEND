@@ -5,7 +5,7 @@ body, div, form, input, select, p {
    padding: 0;
    margin: 0;
    outline: none;
-   font-family: Roboto, Arial, sans-serif;
+   font-family: 'Poppins', sans-serif;
    font-size: 16px;
    color: #eee;
 }
@@ -13,9 +13,11 @@ body {
    background: url("/uploads/media/default/0001/01/b5edc1bad4dc8c20291c8394527cb2c5b43ee13c.jpeg") no-repeat center;
    background-size: cover;
 }
-h1, h2 {
-   text-transform: uppercase;
+h1 {
+   
    font-weight: 400;
+   font-family: 'Poppins', sans-serif;
+   font-size: 3rem;
 }
 h2 {
    margin: 0 0 0 8px;
@@ -27,7 +29,8 @@ h2 {
    align-items: center;
    height: 100%;
    padding: 25px;
-   background: rgba(0, 0, 0, 0.5); 
+   background: rgb(0,66,90);
+   background: linear-gradient(90deg, rgba(0,66,90,1) 18%, rgba(252,115,0,1) 66%);
 }
 .left-part, form {
    padding: 25px;
@@ -39,7 +42,7 @@ h2 {
    font-size: 72px;
 }
 form {
-   background: rgba(0, 0, 0, 0.7); 
+   background:#00425a; 
 }
 .title {
    display: flex;
@@ -67,22 +70,29 @@ option {
    background: black; 
    border: none;
 }
+.checkbox{
+   padding-top: 1rem;
+}
 .checkbox input {
    margin: 0 10px 0 0;
    vertical-align: middle;
+   
+}
+textarea{
+   font-family: 'Poppins', sans-serif;
 }
 .checkbox a {
-   color: #26a9e0;
+   color: #fc7300;
 }
 .checkbox a:hover {
-   color: #85d6de;
+   color: #181823;
 }
 .btn-item, button {
    padding: 10px 5px;
    margin-top: 20px;
    border-radius: 5px; 
    border: none;
-   background: #26a9e0; 
+   background: #181823; 
    text-decoration: none;
    font-size: 15px;
    font-weight: 400;
@@ -96,7 +106,7 @@ button {
    width: 100%;
 }
 button:hover, .btn-item:hover {
-   background: #85d6de;
+   background: #fc7300;
 }
 @media (min-width: 568px) {
    html, body {
