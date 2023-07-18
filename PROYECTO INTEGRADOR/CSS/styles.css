@@ -75,10 +75,14 @@ h1{
 }
 h2{
     padding: 1rem;
+    border-bottom: 3px solid #00425A;
+    border-top: 3px solid #00425A;
+    background: rgb(252,115,0);
+background: linear-gradient(90deg, rgba(252,115,0,0.9724264705882353) 9%, rgba(0,66,90,0.38139005602240894) 44%);
 }
 .contenedor-s1{
     display: flex;
-    gap: 5rem;
+    gap: 4rem;
     padding: 1rem 2rem;
     width: 100vw;
     height: 400px;     
@@ -135,6 +139,8 @@ footer{
     display: flex;
     justify-content: space-around;
     padding-bottom: 2rem;
+    border-top:3px solid #00425A;
+    border-bottom: 3px solid #00425A;
 }
 .Div-Redes{
     display: flex;
