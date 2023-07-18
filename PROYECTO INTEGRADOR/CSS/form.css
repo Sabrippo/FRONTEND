@@ -108,7 +108,7 @@ button {
 button:hover, .btn-item:hover {
    background: #fc7300;
 }
-@media (min-width: 568px) {
+@media (min-width: 768px) {
    html, body {
        height: 100%;
    }
@@ -121,4 +121,24 @@ button:hover, .btn-item:hover {
        height: auto;
    }
 }
-/*MEDIA*/
+@media (max-width: 320px){
+   html, body {
+      height: 100%;
+  }
+   .main-block {
+      flex-direction: row;
+      height: calc(100% - 50px);
+  }
+  .left-part, form {
+      flex: 1;
+      height: auto;
+  }
+  .left-part{
+   display: none;
+  }
+  form{
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+  }
+}

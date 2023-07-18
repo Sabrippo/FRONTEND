@@ -29,12 +29,16 @@ nav ul li a{
     
 }
 .navbar{
-    height: 2rem;    
+    height: 4rem;
+    align-items: center;    
 }
+
 .navbar-toggle {
     display: none;
-    cursor: pointer;
-}
+}   
+.menu-text{
+    display: none;
+} 
   
 .navbar-toggle span {
     display: block;
@@ -50,7 +54,7 @@ nav ul li a{
     padding: 0;
 }
 .navbar-collapse{
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
 }
 h1{
     text-align:left;
@@ -156,8 +160,18 @@ a:hover{
 }
 
 @media (max-width: 320px) {
+.navbar{
+    height: 4rem;
+}    
 .navbar-toggle {
     display: block;
+    padding-top: 1.5rem;
+}
+
+.menu-text {
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;    
 }    
 .navbar-collapse {
     display: none;
@@ -173,7 +187,57 @@ a:hover{
 .navbar-nav.active {
     display: flex;
 }
-
+.contenedor-h1{
+    background-size: contain;
+    height: 10rem;
+}
+.contenedor-h1 h1{
+    padding-left: 3rem;
+    font-size: 1.5rem;        
+}
+.contenedor-s1,.contenedor-s2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contenedor-s4{
+    display: flex;
+    flex-direction: column;    
+}
+.icono{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-s5{
+    display: flex;
+    height: 30%;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+.contenedor-s5 p{
+    overflow: auto;
+}
+.Div-Redes{
+    gap: 0px;
+    display: flex;
+    justify-content: center;
+}
+.Div-mapa iframe{
+    display: flex;
+    justify-content: center;    
+}
+.Div-form{
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+}
 } 
 @media (min-width: 321px) and (max-width: 768px) {
 body{
@@ -181,15 +245,20 @@ body{
 }  
 .navbar{
     width: 100vw;
-    height: 1.5rem;
+    height: 4rem;
 }     
 .navbar-toggle {
     display: none;
-}    
+}   
+.menu-text{
+    display: none;
+} 
 .navbar-collapse {
     display: flex;
     justify-content: space-evenly;
     gap: 2px; 
+    height: 4rem;
+    padding: 0px;
 }    
 .navbar-nav {
     flex-direction: row;
@@ -213,5 +282,65 @@ nav ul{
 li {
     text-align: center;
 }
-
+.contenedor-h1{
+    background-size:cover;
+    height: 15rem;
+}
+.contenedor-h1 h1{
+    padding-left: 12rem;
+    font-size: 2rem;        
+}
+.contenedor-s1,.contenedor-s2{
+    display: flex;
+    gap: 1rem;
+}
+.contenedor-s1 img,.contenedor-s2 img{
+    width: 70%;
+}
+.contenedor-s1 p{
+    width: 30%;
+}
+div.icono{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0px;
+}
+div.icono img{
+    width: 80%;
+}
+div.icono p{
+    font-size: 80%;
+    text-align: center;
+}
+.contenedor-s5{
+    display: flex;
+    height: 30%;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+.contenedor-s5 p{
+    overflow: auto;
+}
+.Div-Redes{
+    gap: 0px;
+    display: flex;
+    justify-content: center;
+}
+.Div-mapa {
+    display: flex;
+    justify-content: center; 
+    width: 100%;   
+}
+.Div-form{
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+}
 }         
