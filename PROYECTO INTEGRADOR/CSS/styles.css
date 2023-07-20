@@ -1,5 +1,5 @@
 :root {
-    background-color: #FC7300;
+    background-color: #eff5f5;
     color: #00425A;
     /*color: #181823;
     color: #EFF5F5;*/
@@ -67,7 +67,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/Img/Pizarrón\ \(2\).jpg);
+    background-image: url(/Img/Pizarrón.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -302,6 +302,7 @@ li {
 }
 .contenedor-s1 img,.contenedor-s2 img{
     width: 70%;
+    
 }
 .contenedor-s1 p{
     width: 30%;

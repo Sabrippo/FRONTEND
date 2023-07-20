@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+:hover#active{
+    color: #fc7300;
+}
+#FormCont{
+    color: #fc7300;
+}
+:hover#FormCont{
+    color:#00425a;
+}
+h2{
+    padding: 1rem;
+    color: #00425a;
+}
+h5{
+    padding-bottom: 2rem ;
+}
+.container{
+   padding:  1rem 4rem;
+}
+main{
+    background-color: rgba(252,115,0,0.2);
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #00425a;
+}
+.navbar-brand{
+    color: #fc7300;
+}
+
+
+@media (max-width: 320px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+  }
+  .header {
+    background-image: url(/Img/Pizarrón.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 6px solid #00425a ;
+    opacity: 0.8;
+    height: 400px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: right;
+    padding-left: 10rem;
+    color: #fc7300;
+    font-weight: bold;
+    
+   
+  }
+  ul.list-unstyled{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    gap: 1rem;
+    align-items: flex-start;
+    padding-left: 3rem;
+  }  
+  .Div-Redes{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+    justify-content: center;
+}
+footer{
+    border-top: 6px solid #00425a ;
+    background-color: rgba(0,66,90,0.9);
+    color: #eff5f5;
+}
+#propuesta{
+    padding-top: 1rem;
+}
