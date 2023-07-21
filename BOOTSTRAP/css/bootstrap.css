@@ -14,6 +14,11 @@
 :hover#FormCont{
   color:#00425a;
 }
+.navbar-brand img{
+  display: flex;
+  align-items: flex-start;
+  width: 13rem;
+}
 h2{
   padding: 1rem;
   color: #00425a;
@@ -47,6 +52,7 @@ height: 15rem;
 color: #fc7300;
 text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 align-items: center;
+text-align: center;
 justify-content: space-around;
 }
 ul.list-unstyled{
