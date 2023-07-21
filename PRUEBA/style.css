@@ -1,0 +1,23 @@
+h1{
+    display: flex;
+    font-size: 5rem;
+    height: 15rem;
+    color: var(--color-principal);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: space-around;
+}
+ 
+.foto-fondo{
+    background-image: url(../PRUEBA/img/Pizarrón.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto-fondo 
+img {
+    margin: 10px;
+    width: 40%;
+    height: auto;
+}
